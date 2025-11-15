@@ -52,22 +52,7 @@ export default function RootLayout({
             </Link>
             <nav className="flex items-center gap-4 text-sm">
               <Link href="/preview/preview" className="text-foreground/80 hover:text-foreground">Preview</Link>
-              <a
-                href="https://nextjs.org/docs"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-foreground/80 hover:text-foreground"
-              >
-                Docs
-              </a>
-              <a
-                href="https://github.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-foreground/80 hover:text-foreground"
-              >
-                GitHub
-              </a>
+
             </nav>
           </div>
           <div className="px-4 md:px-6 lg:px-8">
