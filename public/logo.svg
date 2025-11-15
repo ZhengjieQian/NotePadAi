@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="560" height="120" viewBox="0 0 560 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="NotePadAi wordmark">
+  <title>NotePadAi</title>
+  <defs>
+    <style type="text/css"><![CDATA[
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Inter Bold'), local('Inter-Bold');
+        /* Falls back to system UI if Inter isn't available */
+      }
+      .wordmark {
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+        font-weight: 800;
+        letter-spacing: 0.5px;
+        fill: #0A0A0A;
+      }
+      .ai {
+        font-weight: 900;
+        letter-spacing: 0.2px;
+      }
+    ]]></style>
+  </defs>
+  <!-- Transparent background for better click-target and alignment -->
+  <rect x="0" y="0" width="560" height="120" fill="transparent"/>
+  <g transform="translate(20,86)">
+    <text class="wordmark" font-size="72">
+      <tspan>NotePad</tspan><tspan class="ai">Ai</tspan>
+    </text>
+  </g>
+</svg>
