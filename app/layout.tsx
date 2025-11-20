@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
 import Link from "next/link";
+import { Providers } from "./providers";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -60,9 +61,11 @@ export default function RootLayout({
           </div>
         </header>
 
-        <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8 md:py-12">
-          {children}
-        </main>
+        <Providers>
+          <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8 md:py-12">
+            {children}
+          </main>
+        </Providers>
 
         <footer className="w-full px-4 md:px-6 lg:px-8 py-8 text-sm text-foreground/60">
           <div className="flex items-center justify-between">
